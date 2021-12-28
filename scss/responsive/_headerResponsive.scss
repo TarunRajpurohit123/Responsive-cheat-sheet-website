@@ -1,0 +1,28 @@
+
+@media(max-width:886px){
+  header .slider .slide{
+    flex-direction: column;
+    figure{
+      width: 70%;
+      margin-top: 2rem;
+    }
+    article{
+      min-width: 90%;
+    }
+  }
+  header .slider{
+    height: 120vh;
+  }
+}
+
+@media(max-width:685px){
+  header .mobile-nav{
+    display: block;
+  }
+  header nav{
+    display: none;
+  }
+  header .slider .slide article h1{
+    font-size: 6rem;
+  }
+}
